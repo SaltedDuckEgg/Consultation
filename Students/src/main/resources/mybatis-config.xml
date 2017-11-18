@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>                 <!--根节点-->
+
+    <!--使用该包下的类的简单名称做别名-->
+    <typeAliases>
+    <package name="cn.wy.entity"></package>
+    </typeAliases>
+    <mappers>
+       <!-- <mapper resource="cn/happy/dao/IUserInfoDao.xml"/>-->
+        <package name="cn.wy.dao"></package>
+    </mappers>
+</configuration>

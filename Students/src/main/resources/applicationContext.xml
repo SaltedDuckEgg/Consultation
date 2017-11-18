@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+      http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+
+">
+   <!--识别jdbc.properties-->
+   <!-- <context:property-placeholder location="jdbc.properties"></context:property-placeholder>-->
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:jdbc.properties"></property>
+    </bean>
+
+
+        <!--alibaba 数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+    <!--jdbcTemplate配置-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <bean id="sqlsessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+    </bean>
+
+
+
+    <!--dao的配置-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="cn.wy.dao"></property>
+        <property name="sqlSessionFactoryBeanName" value="sqlsessionFactory"></property>
+    </bean>
+
+    <!--service配置-->
+    <bean name="LoginService" class="cn.wy.service.impl.LoginServiceImpl">
+        <property name="dao" ref="ILoginDAO"></property>
+    </bean>
+    <bean id="classesService" class="cn.wy.service.impl.ClassesServiceImpl">
+        <property name="dao" ref="IClassesDAO"></property>
+    </bean>
+    <bean id="AttService" class="cn.wy.service.impl.AttendanceServiceImpl">
+        <property name="dao" ref="IAttendanceDAO"></property>
+    </bean>
+    <bean id="stuService" class="cn.wy.service.impl.StudentServiceImpl">
+        <property name="dao" ref="IStudentDAO"></property>
+    </bean>
+
+
+
+
+    <!--事务管理器-->
+    <bean id="tr" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--事务处理-->
+    <bean id="logService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager" ref="tr"></property>
+        <property name="target" ref="LoginService"></property>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="buyStock">ISOLATION_DEFAULT,PROPAGATION_REQUIRED</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <bean id="claService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager" ref="tr"></property>
+        <property name="target" ref="LoginService"></property>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="buyStock">ISOLATION_DEFAULT,PROPAGATION_REQUIRED</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <!--事务:方式二-->
+    <!--    <tx:annotation-driven transaction-manager="tr"/>-->
+
+    <!--事务 方式三-->
+   <!-- <tx:advice id="stockAdvice" transaction-manager="tr">
+        <tx:attributes>
+            <tx:method name="buyStock" isolation="DEFAULT" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="potcut" expression="execution(* *..service.impl.*.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="stockAdvice" pointcut-ref="potcut"></aop:advisor>
+    </aop:config>-->
+</beans>

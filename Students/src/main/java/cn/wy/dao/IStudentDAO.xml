@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.wy.dao.IStudentDAO"><!--关联的dao层文件-->
+    <select id="findall" resultType="Student">
+        select * from Student WHERE classesid=#{id}
+    </select>
+
+</mapper>
