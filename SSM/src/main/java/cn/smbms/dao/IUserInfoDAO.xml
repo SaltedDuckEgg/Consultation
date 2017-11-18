@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE mapper
+            PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+            "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="cn.smbms.dao.IUserInfoDAO">
+     <!--1.登录-->
+    <select id="login" parameterType="UserInfo" resultType="UserInfo">
+         select * from smbms_user where usercode=#{userCode} and userpassword=#{userPassword}
+    </select>
+    <!--查询-->
+    <select id="findAll" resultType="UserInfo">
+        select * from smbms_user
+    </select>
+    <!--查询-->
+    <select id="findOnePageData" resultType="UserInfo">
+        select * from smbms_user limit #{pageindex}, #{pagesize}
+    </select>
+    <select id="findOnePageDataByName" resultType="UserInfo">
+        select * from smbms_user where username  like concat('%',#{userName},'%') limit #{pageindex}, #{pagesize}
+    </select>
+
+
+
+    <select id="findByName" resultType="UserInfo">
+        select * from smbms_user where username=#{userName}
+    </select>
+    <select id="getTotalRecords" resultType="int">
+        select count(1) from smbms_user
+    </select>
+    <select id="getTotalRecordsByName" resultType="int">
+        select count(1) from smbms_user where username  like concat('%',#{userName},'%')
+    </select>
+    <insert id="addUser">
+        INSERT INTO `smbms`.`smbms_user` (`userCode`, `userName`, `userPassword`, `gender`, `birthday`, `phone`, `address`, `userRole`) VALUES (#{userCode},#{userName},#{userPassword},#{gender},#{birthday},#{phone},#{address},#{userRole})
+    </insert>
+    <delete id="delUser">
+         DELETE FROM smbms_user WHERE id=#{id}
+    </delete>
+    <select id="findById" resultType="UserInfo">
+         select * from smbms_user where id=#{id}
+    </select>
+    <update id="updateUser" >
+    UPDATE smbms_user SET userName=#{userName},gender=#{gender},birthday=#{birthday},phone=#{phone},address=#{address},userRole=#{userRole}
+    WHERE  id=#{id}
+</update>
+    </mapper>
+
