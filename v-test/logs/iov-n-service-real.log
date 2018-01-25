@@ -1,0 +1,88 @@
+2018-01-20 10:52:07,809	INFO	[main]	Verifying properties
+2018-01-20 10:52:07,842	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:52:07,843	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-20 10:52:07,843	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-20 10:52:07,843	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:52:07,989	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-20 10:52:08,020	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:52:08,046	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:52:08,105	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:52:08,875	INFO	[main]	Shutting down producer
+2018-01-20 10:52:08,884	INFO	[main]	Closing all sync producers
+2018-01-20 10:52:08,886	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:52:08,887	INFO	[main]	Producer shutdown completed in 11 ms
+2018-01-20 10:53:09,877	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-20 10:53:19,076	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-20 10:53:19,076	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-20 10:54:06,194	INFO	[main]	Verifying properties
+2018-01-20 10:54:06,223	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:54:06,223	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-20 10:54:06,223	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-20 10:54:06,223	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:54:06,356	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-20 10:54:06,383	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:54:06,405	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:54:06,457	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:54:07,167	INFO	[main]	Shutting down producer
+2018-01-20 10:54:07,173	INFO	[main]	Closing all sync producers
+2018-01-20 10:54:07,174	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:54:07,175	INFO	[main]	Producer shutdown completed in 8 ms
+2018-01-20 10:54:43,491	INFO	[main]	Verifying properties
+2018-01-20 10:54:43,521	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:54:43,522	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-20 10:54:43,522	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-20 10:54:43,522	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-20 10:54:43,657	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-20 10:54:43,684	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:54:43,704	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:54:43,761	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-20 10:54:45,670	INFO	[main]	Shutting down producer
+2018-01-20 10:54:45,676	INFO	[main]	Closing all sync producers
+2018-01-20 10:54:45,678	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-20 10:54:45,678	INFO	[main]	Producer shutdown completed in 8 ms

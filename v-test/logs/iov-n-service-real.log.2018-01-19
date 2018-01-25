@@ -1,0 +1,766 @@
+2018-01-19 21:35:38,895	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:2181]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class kafka.serializer.StringEncoder
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class kafka.serializer.StringEncoder
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 1000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:37:42,677	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:2181]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 1000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:37:51,819	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:37:51,819	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:38:00,120	INFO	[main]	Verifying properties
+2018-01-19 21:38:00,154	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:38:00,154	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:38:00,154	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:38:00,155	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:38:00,297	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:38:00,321	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:38:00,347	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:38:00,409	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:38:01,471	INFO	[main]	Shutting down producer
+2018-01-19 21:38:01,480	INFO	[main]	Closing all sync producers
+2018-01-19 21:38:01,482	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:38:01,483	INFO	[main]	Producer shutdown completed in 11 ms
+2018-01-19 21:38:49,656	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:2181]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 1000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:38:58,820	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:38:58,820	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:39:07,636	INFO	[main]	Verifying properties
+2018-01-19 21:39:07,660	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:39:07,660	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:39:07,660	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:39:07,660	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:39:07,779	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:39:07,806	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:39:07,827	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:39:07,877	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:39:09,110	INFO	[main]	Shutting down producer
+2018-01-19 21:39:09,118	INFO	[main]	Closing all sync producers
+2018-01-19 21:39:09,120	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:39:09,121	INFO	[main]	Producer shutdown completed in 10 ms
+2018-01-19 21:40:10,120	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:2181]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 1000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:40:19,446	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:40:19,446	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:42:47,601	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:2181]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:42:56,965	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:42:56,965	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:44:12,769	INFO	[main]	Verifying properties
+2018-01-19 21:44:12,797	INFO	[main]	Property auto.commit.interval.ms is overridden to 1000
+2018-01-19 21:44:12,797	INFO	[main]	Property group.id is overridden to group-1
+2018-01-19 21:44:12,797	INFO	[main]	Property zookeeper.connect is overridden to 47.95.227.40:2181
+2018-01-19 21:44:12,797	INFO	[main]	Property zookeeper.session.timeout.ms is overridden to 400
+2018-01-19 21:44:12,797	INFO	[main]	Property zookeeper.sync.time.ms is overridden to 200
+2018-01-19 21:44:12,899	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Connecting to zookeeper instance at 47.95.227.40:2181
+2018-01-19 21:44:12,913	INFO	[ZkClient-EventThread-12-47.95.227.40:2181]	Starting ZkClient event thread.
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:host.name=AROIUIDZAMWTZLX
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:java.version=1.7.0_21
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:java.vendor=Oracle Corporation
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:java.home=G:\Soft\jdk\jdk1.7.0_21\jdk1.7.0_21\jre
+2018-01-19 21:44:12,922	INFO	[main]	Client environment:java.class.path=D:\Training\ACCP\Project\workspace\v-test\target\classes;E:\maven\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;E:\maven\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;E:\maven\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;E:\maven\repository\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;E:\maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\maven\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;E:\maven\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;E:\maven\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;E:\maven\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\maven\repository\commons-net\commons-net\3.5\commons-net-3.5.jar;E:\maven\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4.jar;E:\maven\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;E:\maven\repository\org\json\json\20090211\json-20090211.jar;E:\maven\repository\org\springframework\spring-web\4.3.3.RELEASE\spring-web-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-webmvc\4.3.3.RELEASE\spring-webmvc-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-core\4.3.3.RELEASE\spring-core-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-context\4.3.3.RELEASE\spring-context-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-context-support\4.3.3.RELEASE\spring-context-support-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-aop\4.3.3.RELEASE\spring-aop-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-aspects\4.3.3.RELEASE\spring-aspects-4.3.3.RELEASE.jar;E:\maven\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;E:\maven\repository\org\springframework\spring-beans\4.3.3.RELEASE\spring-beans-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-orm\4.3.3.RELEASE\spring-orm-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-oxm\4.3.3.RELEASE\spring-oxm-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-expression\4.3.3.RELEASE\spring-expression-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-jdbc\4.3.3.RELEASE\spring-jdbc-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-tx\4.3.3.RELEASE\spring-tx-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-test\4.3.3.RELEASE\spring-test-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-jms\4.3.3.RELEASE\spring-jms-4.3.3.RELEASE.jar;E:\maven\repository\org\springframework\spring-messaging\4.3.3.RELEASE\spring-messaging-4.3.3.RELEASE.jar;E:\maven\repository\net\sf\ehcache\ehcache-core\2.4.7\ehcache-core-2.4.7.jar;E:\maven\repository\net\sf\ehcache\ehcache-terracotta\2.4.7\ehcache-terracotta-2.4.7.jar;E:\maven\repository\org\terracotta\terracotta-toolkit-1.3-runtime\3.4.0\terracotta-toolkit-1.3-runtime-3.4.0.jar;E:\maven\repository\org\quartz-scheduler\quartz\2.2.3\quartz-2.2.3.jar;E:\maven\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;E:\maven\repository\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;E:\maven\repository\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;E:\maven\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;E:\maven\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;E:\maven\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;E:\maven\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;E:\maven\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\maven\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\maven\repository\com\google\code\gson\gson\2.3\gson-2.3.jar;E:\maven\repository\org\bouncycastle\bcprov-jdk16\1.46\bcprov-jdk16-1.46.jar;E:\maven\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\maven\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;E:\maven\repository\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar;E:\maven\repository\org\apache\httpcomponents\httpcore\4.4.5\httpcore-4.4.5.jar;E:\maven\repository\org\apache\httpcomponents\httpclient-cache\4.4.1\httpclient-cache-4.4.1.jar;E:\maven\repository\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;E:\maven\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;E:\maven\repository\org\apache\kafka\kafka_2.11\0.9.0.1\kafka_2.11-0.9.0.1.jar;E:\maven\repository\com\101tec\zkclient\0.7\zkclient-0.7.jar;E:\maven\repository\org\apache\kafka\kafka-clients\0.9.0.1\kafka-clients-0.9.0.1.jar;E:\maven\repository\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;E:\maven\repository\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;E:\maven\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;E:\maven\repository\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar;E:\maven\repository\org\scala-lang\scala-library\2.11.7\scala-library-2.11.7.jar;E:\maven\repository\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;E:\maven\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;E:\maven\repository\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;E:\maven\repository\org\softee\pojo-mbean\1.1\pojo-mbean-1.1.jar;E:\maven\repository\com\esotericsoftware\kryo\3.0.3\kryo-3.0.3.jar;E:\maven\repository\com\esotericsoftware\reflectasm\1.10.1\reflectasm-1.10.1.jar;E:\maven\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;E:\maven\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;E:\maven\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;E:\maven\repository\de\ruedigermoeller\fst\2.24\fst-2.24.jar;E:\maven\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;E:\maven\repository\io\netty\netty-all\4.1.6.Final\netty-all-4.1.6.Final.jar;E:\maven\repository\com\oracle\ojdbc14\10.2.0.4.0\ojdbc14-10.2.0.4.0.jar;E:\maven\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.8.2\log4j-slf4j-impl-2.8.2.jar;E:\maven\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;E:\maven\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;E:\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\maven\repository\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar;E:\maven\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;E:\maven\repository\com\alibaba\druid\1.0.26\druid-1.0.26.jar;E:\maven\repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;E:\maven\repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;E:\maven\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;E:\maven\repository\jline\jline\0.9.94\jline-0.9.94.jar;E:\maven\repository\junit\junit\3.8.1\junit-3.8.1.jar;E:\maven\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;E:\maven\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;E:\maven\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;E:\maven\repository\com\accp\v-service-vehicle\1.0.0\v-service-vehicle-1.0.0.jar
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:java.library.path=G:\Soft\jdk\jdk1.7.0_21\jdk1.7.0_21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;G:/Soft/jdk/jdk1.7.0_21/jdk1.7.0_21/bin/../jre/bin/client;G:/Soft/jdk/jdk1.7.0_21/jdk1.7.0_21/bin/../jre/bin;G:/Soft/jdk/jdk1.7.0_21/jdk1.7.0_21/bin/../jre/lib/i386;G:\Soft\apache-maven-3.0.5-nexus/bin;C:\Program Files (x86)\Common Files\NetSarang;G:\Soft\jdk\jdk1.7.0_21\jdk1.7.0_21\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\ATI Technologies\ATI.ACE\Core-Static;I:\Program Files\nodejs\;C:\Users\Administrator\AppData\Roaming\npm;G:\Soft\eclipse-jee-luna-SR1a-win32\eclipse;;.
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:java.compiler=<NA>
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:os.name=Windows 7
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:os.arch=x86
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:os.version=6.1
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:user.name=Administrator
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:user.home=C:\Users\Administrator
+2018-01-19 21:44:12,923	INFO	[main]	Client environment:user.dir=D:\Training\ACCP\Project\workspace\v-test
+2018-01-19 21:44:12,925	INFO	[main]	Initiating client connection, connectString=47.95.227.40:2181 sessionTimeout=400 watcher=org.I0Itec.zkclient.ZkClient@1bcbda5
+2018-01-19 21:44:12,949	INFO	[main]	Waiting for keeper state SyncConnected
+2018-01-19 21:44:12,953	INFO	[main-SendThread(47.95.227.40:2181)]	Opening socket connection to server 47.95.227.40/47.95.227.40:2181. Will not attempt to authenticate using SASL (unknown error)
+2018-01-19 21:44:12,961	INFO	[main-SendThread(47.95.227.40:2181)]	Socket connection established to 47.95.227.40/47.95.227.40:2181, initiating session
+2018-01-19 21:44:12,975	INFO	[main-SendThread(47.95.227.40:2181)]	Session establishment complete on server 47.95.227.40/47.95.227.40:2181, sessionid = 0x160f84ca07c0533, negotiated timeout = 4000
+2018-01-19 21:44:12,976	INFO	[main-EventThread]	zookeeper state changed (SyncConnected)
+2018-01-19 21:44:12,996	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], starting auto committer every 1000 ms
+2018-01-19 21:44:13,034	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], begin registering consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae in ZK
+2018-01-19 21:44:13,080	INFO	[main]	Creating /consumers/group-1/ids/group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae (is it secure? false)
+2018-01-19 21:44:13,103	INFO	[main]	Result of znode creation is: OK
+2018-01-19 21:44:13,104	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], end registering consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae in ZK
+2018-01-19 21:44:13,109	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae_watcher_executor]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], starting watcher executor thread for consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae
+2018-01-19 21:44:13,157	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], begin rebalancing consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae try #0
+2018-01-19 21:44:13,334	INFO	[main]	[ConsumerFetcherManager-1516369452990] Stopping leader finder thread
+2018-01-19 21:44:13,334	INFO	[main]	[ConsumerFetcherManager-1516369452990] Stopping all fetchers
+2018-01-19 21:44:13,335	INFO	[main]	[ConsumerFetcherManager-1516369452990] All connections stopped
+2018-01-19 21:44:13,337	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Cleared all relevant queues for this fetcher
+2018-01-19 21:44:13,338	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Cleared the data chunks in all the consumer message iterators
+2018-01-19 21:44:13,338	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Committing all offsets after clearing the fetcher queues
+2018-01-19 21:44:13,340	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Releasing partition ownership
+2018-01-19 21:44:13,404	INFO	[main]	Consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae rebalancing the following partitions: ArrayBuffer(0, 1, 2) for topic helloworld with consumers: List(group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-0, group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-1, group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-2, group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-3)
+2018-01-19 21:44:13,406	INFO	[main]	group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-0 attempting to claim partition 0
+2018-01-19 21:44:13,406	INFO	[main]	group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-1 attempting to claim partition 1
+2018-01-19 21:44:13,406	INFO	[main]	group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-2 attempting to claim partition 2
+2018-01-19 21:44:13,407	WARN	[main]	No broker partitions consumed by consumer thread group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-3 for topic helloworld
+2018-01-19 21:44:13,475	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-1 successfully owned partition 1 for topic helloworld
+2018-01-19 21:44:13,482	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-2 successfully owned partition 2 for topic helloworld
+2018-01-19 21:44:13,490	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-0 successfully owned partition 0 for topic helloworld
+2018-01-19 21:44:13,512	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], Consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae selected partitions : helloworld:0: fetched offset = 132: consumed offset = 132,helloworld:1: fetched offset = 136: consumed offset = 136,helloworld:2: fetched offset = 132: consumed offset = 132
+2018-01-19 21:44:13,513	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread], Starting 
+2018-01-19 21:44:13,514	INFO	[main]	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae], end rebalancing consumer group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae try #0
+2018-01-19 21:44:13,547	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Verifying properties
+2018-01-19 21:44:13,549	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Property client.id is overridden to group-1
+2018-01-19 21:44:13,549	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:44:13,549	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Property request.timeout.ms is overridden to 30000
+2018-01-19 21:44:13,567	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:44:13,578	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:44:13,599	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:44:13,616	INFO	[ConsumerFetcherThread-group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-0-0]	[ConsumerFetcherThread-group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-0-0], Starting 
+2018-01-19 21:44:13,620	INFO	[group-1_AROIUIDZAMWTZLX-1516369452897-ac9697ae-leader-finder-thread]	[ConsumerFetcherManager-1516369452990] Added fetcher for partitions ArrayBuffer([[helloworld,1], initOffset 136 to broker BrokerEndPoint(0,47.95.227.40,9092)] , [[helloworld,2], initOffset 132 to broker BrokerEndPoint(0,47.95.227.40,9092)] , [[helloworld,0], initOffset 132 to broker BrokerEndPoint(0,47.95.227.40,9092)] )
+2018-01-19 21:44:20,854	INFO	[main]	Verifying properties
+2018-01-19 21:44:20,882	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:44:20,882	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:44:20,883	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:44:20,883	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:44:21,004	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:44:21,028	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:44:21,056	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:44:21,106	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:44:22,077	INFO	[main]	Shutting down producer
+2018-01-19 21:44:22,082	INFO	[main]	Closing all sync producers
+2018-01-19 21:44:22,084	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:44:22,085	INFO	[main]	Producer shutdown completed in 7 ms
+2018-01-19 21:45:41,519	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:45:50,859	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:45:50,859	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:46:20,933	INFO	[main]	Verifying properties
+2018-01-19 21:46:20,963	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:46:20,963	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:46:20,963	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:46:20,963	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:46:21,083	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:46:21,107	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:46:21,128	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:46:21,177	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:46:22,173	INFO	[main]	Shutting down producer
+2018-01-19 21:46:22,181	INFO	[main]	Closing all sync producers
+2018-01-19 21:46:22,182	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:46:22,183	INFO	[main]	Producer shutdown completed in 9 ms
+2018-01-19 21:52:38,753	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:52:47,942	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:52:47,942	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:52:55,622	INFO	[main]	Verifying properties
+2018-01-19 21:52:55,646	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:52:55,646	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:52:55,647	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:52:55,647	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:52:55,761	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:52:55,785	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:52:55,814	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:52:55,866	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:52:57,037	INFO	[main]	Shutting down producer
+2018-01-19 21:52:57,043	INFO	[main]	Closing all sync producers
+2018-01-19 21:52:57,045	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:52:57,045	INFO	[main]	Producer shutdown completed in 8 ms
+2018-01-19 21:54:04,827	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:54:13,986	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:54:13,986	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:54:44,765	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:54:53,921	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:54:53,921	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:55:14,287	INFO	[main]	Verifying properties
+2018-01-19 21:55:14,313	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:55:14,313	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:55:14,313	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:55:14,313	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:55:14,437	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:55:14,462	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:55:14,483	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:55:14,532	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:55:15,427	INFO	[main]	Shutting down producer
+2018-01-19 21:55:15,433	INFO	[main]	Closing all sync producers
+2018-01-19 21:55:15,435	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:55:15,436	INFO	[main]	Producer shutdown completed in 8 ms
+2018-01-19 21:56:46,847	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:56:56,005	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:56:56,006	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:59:18,390	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 21:59:27,577	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 21:59:27,577	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 21:59:45,561	INFO	[main]	Verifying properties
+2018-01-19 21:59:45,595	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:59:45,595	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 21:59:45,595	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 21:59:45,595	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 21:59:45,718	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 21:59:45,751	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:59:45,782	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:59:45,837	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 21:59:47,619	INFO	[main]	Shutting down producer
+2018-01-19 21:59:47,627	INFO	[main]	Closing all sync producers
+2018-01-19 21:59:47,629	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 21:59:47,630	INFO	[main]	Producer shutdown completed in 10 ms
+2018-01-19 22:03:02,183	INFO	[main]	ConsumerConfig values: 
+	request.timeout.ms = 40000
+	check.crcs = true
+	retry.backoff.ms = 100
+	ssl.truststore.password = null
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.key.password = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.provider = null
+	sasl.kerberos.service.name = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [47.95.227.40:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	auto.offset.reset = latest
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	max.partition.fetch.bytes = 1048576
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	metadata.max.age.ms = 300000
+	security.protocol = PLAINTEXT
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = abc
+	enable.auto.commit = false
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+
+2018-01-19 22:03:11,335	INFO	[main]	Kafka version : 0.9.0.1
+2018-01-19 22:03:11,335	INFO	[main]	Kafka commitId : 23c69d62a0cabf06
+2018-01-19 22:03:26,997	INFO	[main]	Verifying properties
+2018-01-19 22:03:27,024	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 22:03:27,024	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 22:03:27,024	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 22:03:27,024	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 22:03:27,145	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 22:03:27,172	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 22:03:27,196	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 22:03:27,243	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 22:03:28,089	INFO	[main]	Shutting down producer
+2018-01-19 22:03:28,096	INFO	[main]	Closing all sync producers
+2018-01-19 22:03:28,098	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 22:03:28,098	INFO	[main]	Producer shutdown completed in 9 ms
+2018-01-19 22:03:45,623	INFO	[main]	Verifying properties
+2018-01-19 22:03:45,654	INFO	[main]	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 22:03:45,654	INFO	[main]	Property metadata.broker.list is overridden to 47.95.227.40:9092
+2018-01-19 22:03:45,654	INFO	[main]	Property request.required.acks is overridden to 1
+2018-01-19 22:03:45,654	INFO	[main]	Property serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-19 22:03:45,794	INFO	[main]	Fetching metadata from broker BrokerEndPoint(0,47.95.227.40,9092) with correlation id 0 for 1 topic(s) Set(helloworld)
+2018-01-19 22:03:45,817	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 22:03:45,838	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 22:03:45,887	INFO	[main]	Connected to 47.95.227.40:9092 for producing
+2018-01-19 22:03:46,683	INFO	[main]	Shutting down producer
+2018-01-19 22:03:46,691	INFO	[main]	Closing all sync producers
+2018-01-19 22:03:46,693	INFO	[main]	Disconnecting from 47.95.227.40:9092
+2018-01-19 22:03:46,694	INFO	[main]	Producer shutdown completed in 9 ms

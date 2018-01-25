@@ -1,0 +1,55 @@
+2018-01-16 14:12:14,750	Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.accp.gateway.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in class path resource [application.xml]; nested exception is java.lang.ClassNotFoundException: com.accp.gateway.utils.SpringContextUtils
+2018-01-16 14:14:50,254	Verifying properties
+2018-01-16 14:14:50,289	Property batch.num.messages is overridden to 500
+2018-01-16 14:14:50,290	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-16 14:14:50,290	Property metadata.broker.list is overridden to master:9092,slave1:9092,slave2:9092
+2018-01-16 14:14:50,290	Property partitioner.class is overridden to com.accp.v.gateway.kafka.VinPartitioner
+2018-01-16 14:14:50,290	Property producer.type is overridden to async
+2018-01-16 14:14:50,290	Property queue.buffering.max.messages is overridden to 1000000
+2018-01-16 14:14:50,290	Property queue.buffering.max.ms is overridden to 2000
+2018-01-16 14:14:50,291	Property queue.enqueue.timeout.ms is overridden to -1
+2018-01-16 14:14:50,291	Property request.required.acks is overridden to 1
+2018-01-16 14:14:50,291	Property send.buffer.bytes is overridden to 1048576
+2018-01-16 14:14:50,291	Property topic.metadata.refresh.interval.ms is overridden to 180000
+2018-01-16 14:14:50,367	Verifying properties
+2018-01-16 14:14:50,367	Property batch.num.messages is overridden to 500
+2018-01-16 14:14:50,368	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-16 14:14:50,368	Property metadata.broker.list is overridden to master:9092,slave1:9092,slave2:9092
+2018-01-16 14:14:50,368	Property partitioner.class is overridden to com.accp.v.gateway.kafka.VinPartitioner
+2018-01-16 14:14:50,368	Property producer.type is overridden to async
+2018-01-16 14:14:50,368	Property queue.buffering.max.messages is overridden to 1000000
+2018-01-16 14:14:50,368	Property queue.buffering.max.ms is overridden to 2000
+2018-01-16 14:14:50,368	Property queue.enqueue.timeout.ms is overridden to -1
+2018-01-16 14:14:50,368	Property request.required.acks is overridden to 1
+2018-01-16 14:14:50,369	Property send.buffer.bytes is overridden to 1048576
+2018-01-16 14:14:50,369	Property topic.metadata.refresh.interval.ms is overridden to 180000
+2018-01-16 14:14:50,370	Verifying properties
+2018-01-16 14:14:50,370	Property batch.num.messages is overridden to 500
+2018-01-16 14:14:50,370	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-16 14:14:50,370	Property metadata.broker.list is overridden to master:9092,slave1:9092,slave2:9092
+2018-01-16 14:14:50,370	Property partitioner.class is overridden to com.accp.v.gateway.kafka.VinPartitioner
+2018-01-16 14:14:50,371	Property producer.type is overridden to async
+2018-01-16 14:14:50,371	Property queue.buffering.max.messages is overridden to 1000000
+2018-01-16 14:14:50,371	Property queue.buffering.max.ms is overridden to 2000
+2018-01-16 14:14:50,371	Property queue.enqueue.timeout.ms is overridden to -1
+2018-01-16 14:14:50,371	Property request.required.acks is overridden to 1
+2018-01-16 14:14:50,371	Property send.buffer.bytes is overridden to 1048576
+2018-01-16 14:14:50,371	Property topic.metadata.refresh.interval.ms is overridden to 180000
+2018-01-16 14:14:50,372	Verifying properties
+2018-01-16 14:14:50,372	Property batch.num.messages is overridden to 500
+2018-01-16 14:14:50,373	Property key.serializer.class is overridden to kafka.serializer.StringEncoder
+2018-01-16 14:14:50,373	Property metadata.broker.list is overridden to master:9092,slave1:9092,slave2:9092
+2018-01-16 14:14:50,373	Property partitioner.class is overridden to com.accp.v.gateway.kafka.VinPartitioner
+2018-01-16 14:14:50,373	Property producer.type is overridden to async
+2018-01-16 14:14:50,373	Property queue.buffering.max.messages is overridden to 1000000
+2018-01-16 14:14:50,373	Property queue.buffering.max.ms is overridden to 2000
+2018-01-16 14:14:50,373	Property queue.enqueue.timeout.ms is overridden to -1
+2018-01-16 14:14:50,373	Property request.required.acks is overridden to 1
+2018-01-16 14:14:50,374	Property send.buffer.bytes is overridden to 1048576
+2018-01-16 14:14:50,374	Property topic.metadata.refresh.interval.ms is overridden to 180000
+2018-01-16 14:14:50,978	[id: 0x0a2bc293] REGISTERED
+2018-01-16 14:14:50,980	[id: 0x0a2bc293] BIND: 0.0.0.0/0.0.0.0:6666
+2018-01-16 14:14:50,981	[GatewayServer]服务启动成功，端口号：6666
+2018-01-16 14:14:50,981	[id: 0x0a2bc293, L:/0:0:0:0:0:0:0:0:6666] ACTIVE
+2018-01-16 14:17:26,896	[id: 0x0a2bc293, L:/0:0:0:0:0:0:0:0:6666] RECEIVED: [id: 0xc08ee3c2, L:/127.0.0.1:6666 - R:/127.0.0.1:54251]
+2018-01-16 14:17:27,049	[DownStreamDataTask][下行报文][Vin=MMV2ARB25G0010724](446d57fffe5d7a74-00000bf8-00000001-4159c02ea595846d-c08ee3c2)(/127.0.0.1:54251)][{"commandTag":"VEHICLE_LOGIN","vin":"MMV2ARB25G0010724","content":"{\"collectTime\":1516083446,\"serialNumber\":1,\"iccid\":\"898602B2331530010724\",\"chargingSystemNumber\":0,\"chargingSystemLength\":0}"}]

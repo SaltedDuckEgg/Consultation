@@ -1,0 +1,39 @@
+2018-01-16 14:17:26,270	[Client(0)][上行数据线程启动...]
+2018-01-16 14:17:26,270	[Client(0)][下行数据线程启动...]
+2018-01-16 14:17:26,893	[Client(0)[客户端通道建立成功]
+2018-01-16 14:17:31,984	心跳
+2018-01-16 14:17:36,988	心跳
+2018-01-16 14:17:41,992	心跳
+2018-01-16 14:17:46,999	心跳
+2018-01-16 14:17:52,003	心跳
+2018-01-16 14:17:57,006	心跳
+2018-01-16 14:18:02,009	心跳
+2018-01-16 14:18:07,010	心跳
+2018-01-16 14:18:12,011	心跳
+2018-01-16 14:18:17,014	心跳
+2018-01-16 14:18:22,018	心跳
+2018-01-16 14:18:27,020	心跳
+2018-01-16 14:18:32,023	心跳
+2018-01-16 14:18:37,027	心跳
+2018-01-16 14:18:42,030	心跳
+2018-01-16 14:18:47,034	心跳
+2018-01-16 14:18:52,037	心跳
+2018-01-16 14:18:57,039	心跳
+2018-01-16 14:19:02,042	心跳
+2018-01-16 14:19:06,161	An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:193)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:359)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:366)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at java.lang.Thread.run(Thread.java:722)
