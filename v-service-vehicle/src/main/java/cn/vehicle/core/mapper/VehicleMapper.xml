@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vehicle.core.dao.VehicleMapper">
+
+
+  <select id="getVehicleByvin"  resultType="cn.vehicle.core.model.VehicleManage">
+   SELECT * FROM `vehiclemanage` WHERE vin=#{vin}
+  </select>
+
+    <select id="getVehicleList" resultType="cn.vehicle.core.model.VehicleManage">
+        SELECT * from vehiclemanage
+    </select>
+
+<select id="getVehicleListbyVehicle" resultType="cn.vehicle.core.model.VehicleManage">
+    SELECT * FROM vehiclemanage
+    <where>
+        <if test="carLicense!=null">
+            AND carLicense=#{carLicense}
+        </if>
+        <if test="vin!=null">
+            AND vin=#{vin}
+        </if>
+        <if test="iccid!=null">
+            AND iccid=#{iccid}
+        </if>
+        <if test="carType!=null">
+            AND carType=#{carType}
+        </if>
+
+    </where>
+
+</select>
+
+    <insert id="addVrhicle">
+      INSERT INTO vehiclemanage(`carLicense`,`vin`,`iccid`,`carType`,`provinces`,`city`)VALUES(#{carLicense},#{vin},#{iccid},#{carType},#{provinces},#{city})
+    </insert>
+
+    <delete id="delvehiclebyid">
+        DELETE FROM vehiclemanage WHERE id=#{id}
+    </delete>
+
+    <select id="getVehiclebyid" resultType="cn.vehicle.core.model.VehicleManage">
+        select * from vehiclemanage where id=#{id}
+    </select>
+
+    <update id="upVehiclebyid">
+        UPDATE `vehiclemanage` SET `carLicense`=#{carLicense},`vin`=#{vin},`iccid`=#{iccid},`carType`=#{carType},`provinces`=#{provinces},`city`=#{city} WHERE `id`=#{id}
+    </update>
+    <select id="selCount" resultType="int">
+        SELECT  count(1) FROM  vehiclemanage
+    </select>
+</mapper>

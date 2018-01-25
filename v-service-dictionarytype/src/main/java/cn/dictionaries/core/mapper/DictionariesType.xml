@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dictionaries.core.dao.IDictionariesType">
+
+    <resultMap id="dicMapping" type="cn.dictionaries.core.model.DictionariesType">
+        <id column="id" property="id"></id>
+        <result column="type_name" property="typename"></result>
+        <result column="type_conetnt" property="typecontent"></result>
+    </resultMap>
+
+  <select id="getDicList"  resultMap="dicMapping">
+   SELECT * FROM `dictionariesType`
+  </select>
+
+    <select id="getDicBytypename" resultMap="dicMapping">
+        SELECT * FROM dictionariesType WHERE type_name=#{typename}
+    </select>
+
+    <insert id="addDic">
+         INSERT INTO dictionariesType(type_name,type_conetnt)VALUES(#{typename},#{typecontent})
+    </insert>
+
+
+    <delete id="delDic">
+          DELETE FROM dictionariesType WHERE id=#{id}
+    </delete>
+
+    <select id="getDicTypebyid" resultMap="dicMapping">
+           SELECT * FROM `dictionariesType` WHERE id=#{id}
+    </select>
+
+    <update id="updateDicType">
+         UPDATE `dictionariesType` SET `type_name`=#{typename},`type_conetnt`=#{typecontent} WHERE `id`=#{id}
+    </update>
+
+</mapper>
